@@ -5,7 +5,7 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <h2> This is Home Page</h2>
+      <h3> This is Home Page</h3>
 
       <button onClick={() => navigate("/order-summary")}>
         Place Order Now
